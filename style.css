@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(im.jpg) no-repeat center/cover;
+    backdrop-filter: blur(3px);
+    min-height: 100vh;
+    width: 100vw;
+}
+/* navbar open */
+.navbar{
+    display: grid;
+    grid-template-columns: 27% 42% 31%;
+}
+
+.icon .c{
+    width:53px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.102);
+}
+.icon .c i{
+    text-align: center;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    padding: 11px 14px;
+    transform: rotate(-35deg);
+}
+.navbar ul{
+    display: grid;
+    grid-template-columns: 15% 13% 13% 22% 40%;
+    margin-left: 30px;
+}
+.navbar ul li{
+    color: white;
+    list-style: none;
+    padding-top: 16px;
+    text-align: right;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btns{
+    padding-top: 5px;
+    margin-left: 90px;
+}
+#bt1{
+    padding: 12px 15px;
+    background: none;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0px 3px;
+}
+#bt2{
+    padding: 13px 18px;
+    background: rgb(207, 173, 20);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0px 3px;
+
+}
+/* navbar close */
+
+/* Main part open */
+/* logo open */
+.logo{
+      padding-top: 30px;
+
+}
+.logo .c1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 17px;
+    background: rgb(207, 173, 20);
+    margin-top: 30px;
+    margin: 0px auto;
+
+}
+.c1 i{
+    font-size: 68px;
+    padding: 18px;
+    transform: rotate(-35deg);
+}
+/* logo close */
+
+/* head open */
+.head h1{
+   text-align: center;
+   font-size: 60px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   letter-spacing: 3px;
+   color: rgb(255, 255, 255);
+   margin-bottom: 10px;
+}
+.head p{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+.b1 button{
+    padding:16px 50px;
+    background-color: rgba(255, 255, 255, 0.123);
+    border: 2px solid white;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.b1 button i{
+    font-size: 18px;
+    color: white;
+}
+.b2 button{
+    padding:18px 40px;
+    background-color: #215595;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.b2 button i{
+    font-size: 18px;
+    color: white;
+}
+/* head close */
+/* st open */
+.st{
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+}
+.fo{
+    display: flex;
+    align-items: center;
+    margin: 4px 20px;
+}
+.fo i{
+    font-size: 35px;
+    color: white;
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+.fo p{
+    font-size: 10px;
+    color: white;
+}
+.fo p span{
+    font-size: 17px;
+}
+.so{
+    display: flex;
+    align-items: center;
+    margin: 4px 20px;
+}
+.so i{
+    font-size: 35px;
+    margin-right: 5px;
+    margin-bottom: 6px;
+    color: #215595;
+}
+.so p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.so p span{
+    font-size: 16px;
+}
+/* st close */
+/* Main part close */
+/* footer open*/
+footer{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/* footer close*/
